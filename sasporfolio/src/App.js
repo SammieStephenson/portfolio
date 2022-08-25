@@ -1,13 +1,16 @@
 import './App.css';
+import About from "./components/about/about.js";
+import Header from "./components/header/header"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-        Sammie
-
-      </header>
+      {/* <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
+      <div className="sections">
+        <Header />
+        <About />
+      </div>
     </div>
   );
 }
