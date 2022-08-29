@@ -6,7 +6,7 @@ const About = () => {
             <div className="abpic">
                 <div className="a-card bg"></div>
                 <div className="a-card">
-                    <img src="./images/samsun.jpg" alt="" className="a-img" />
+                    <img src="./assets/samsun.jpg" alt="" className="a-img" />
                 </div>
             </div>
             <div className="abtext">
