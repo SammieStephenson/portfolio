@@ -1,5 +1,40 @@
-.picture {
-    height: 5px;
-    width: 10px;
-    margin: 50px;
+.proj {
+    margin: 30pt;
+}
+
+.card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    margin: 10pt;
+}
+
+.img {
+    width: 100%;
+    height: 105%;
+    object-fit: contain;
+}
+
+
+.netpic {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 50%;
+}
+
+.taskpic {
+    height: 100%;
+    background-image: url("/public/assets/taskday.png");
+    background-size: cover;
+}
+
+.taskpic:hover {
+    background-image: url("/public/assets/tasknight.png");
+    background-size: cover;
+    height: 100%;
 }
