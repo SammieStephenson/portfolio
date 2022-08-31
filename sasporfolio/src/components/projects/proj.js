@@ -31,7 +31,9 @@ const Projects = () => {
                 </div>
             </div >
             <div className="ecom">
-                <div className="ecomcaro">
+                <div className="cardec">
+
+                    <img className="ecopic" src="../assets/ecomreactpic.png" alt="" />
 
                 </div>
             </div>

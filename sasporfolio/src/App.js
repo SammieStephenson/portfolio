@@ -4,6 +4,7 @@ import Header from "./components/header/header";
 import Projects from "./components/projects/proj";
 import Res from './components/resume/resume';
 import Footer from "./components/footer/footer";
+import Skills from './components/skills/skills';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Res />
         <Projects />
+        <Skills />
         <Footer />
       </div>
     </div>
