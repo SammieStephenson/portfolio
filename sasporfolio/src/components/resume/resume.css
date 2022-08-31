@@ -1,3 +1,6 @@
-.resume {
-    height: 25vh;
+div.resume {
+    margin: 50px;
+    height: 200vh;
+    top: 50px;
+    left: 50px;
 }

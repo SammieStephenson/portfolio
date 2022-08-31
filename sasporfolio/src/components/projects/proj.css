@@ -1,30 +1,84 @@
 .proj {
-    margin: 30pt;
+    margin: 30px;
 }
 
 .card {
-    width: 60%;
-    height: 70vh;
+    width: 65vw;
+    height: 90vh;
     border-radius: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: antiquewhite;
     margin: 10pt;
 }
 
-.img {
-    width: 100%;
-    height: 105%;
-    object-fit: contain;
+.cardgit {
+    width: 30vw;
+    height: 20vh;
+    border-radius: 30px;
+    /* overflow: hidden; */
+    background-color: antiquewhite;
+    margin: 20pt;
 }
 
+.cardup {
+    width: 23vw;
+    height: 65vh;
+    border-radius: 30px;
+    /* overflow: hidden; */
+    background-color: antiquewhite;
+    margin: 20pt;
+    margin-left: 17%;
+}
+
+.cardtaskbox {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 30px;
+    /* overflow: hidden; */
+    background-color: antiquewhite;
+    margin: 20pt;
+}
+
+.img {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+}
+
+.row {
+    /* content: ""; */
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+/* .column {
+    display: flex;
+    justify-content: flex-end;
+} */
 
 .netpic {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 50%;
+    height: 100%;
+    background-image: url("/public/assets/netPic.png");
+    background-size: cover;
+    align-items: left;
+}
+
+.netgit {
+    height: 100%;
+    background-image: url("/public/assets/netgitpic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.netuserp {
+    height: 100%;
+    background-image: url("/public/assets/userp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: left;
 }
 
 .taskpic {
@@ -37,4 +91,15 @@
     background-image: url("/public/assets/tasknight.png");
     background-size: cover;
     height: 100%;
+}
+
+.taskhead {
+    text-align: center;
+    align-content: center;
+}
+
+.tasktext {
+    font-size: x-large;
+    line-height: 1.5;
+    margin: 30px;
 }
