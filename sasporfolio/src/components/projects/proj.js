@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <>
             <div className="proj">
-                <h1>Projects</h1>
+                <h1 className="section">Netflix Redesign: Group Work</h1>
                 <div className="netflix">
                     <div className="row">
                         <div className="card">
@@ -31,10 +31,18 @@ const Projects = () => {
                 </div>
             </div >
             <div className="ecom">
+                <h1> Version 1-3 Ecommerce Project </h1>
                 <div className="cardec">
-
-                    <img className="ecopic" src="../assets/ecomreactpic.png" alt="" />
-
+                    <div className="slider">
+                        <figure>
+                            <a href="http://localhost:3001/" target="_blank"
+                                rel="noreferrer"><img className="ecopic" src="../assets/wideecorea.png" alt="" /></a>
+                            <a href="http://127.0.0.1:5502/home.html" target="_blank"
+                                rel="noreferrer"><img className="ecopic" src="../assets/ecomtwo.png" alt="" /></a>
+                            <a href="http://127.0.0.1:5500/home.html" target="_blank"
+                                rel="noreferrer"><img className="ecopic" src="../assets/firstecom.png" alt="" /></a>
+                        </figure>
+                    </div>
                 </div>
             </div>
             <div className="task">

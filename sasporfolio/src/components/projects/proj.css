@@ -1,5 +1,17 @@
 .proj {
-    margin: 30px;
+    margin: 5px;
+}
+
+.section {
+    font: 40pt;
+}
+
+.task {
+    margin-top: 5%;
+}
+
+.ecom {
+    margin-top: 10%;
 }
 
 .card {
@@ -9,6 +21,7 @@
     /* overflow: hidden; */
     background-color: antiquewhite;
     margin: 10pt;
+    margin-top: 5%;
 }
 
 .cardgit {
@@ -41,12 +54,11 @@
 }
 
 .cardec {
-    width: 60vw;
-    height: 90vh;
+    width: 90vw;
+    height: 88vh;
     border-radius: 30px;
     background-color: antiquewhite;
-    margin: 15px;
-    margin-left: 18%;
+    margin-left: 5%;
 }
 
 .img {
@@ -77,6 +89,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
+    border: solid black 3pt;
 }
 
 .netuserp {
@@ -110,7 +123,64 @@
     margin: 30px;
 }
 
+.cardtaskbox {
+    margin-top: 5%;
+}
+
+
+
 .ecopic {
     height: 100%;
     width: 100%;
+}
+
+.slider {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-color: black;
+    border: 10px;
+    margin-top: 40px;
+}
+
+.slider figure {
+    position: relative;
+    width: 800vw;
+    margin-right: 10vw;
+    animation: 20s slider infinite;
+}
+
+.slider figure img {
+    width: 10%;
+    height: 10%;
+    border: 5pt;
+    border: solid;
+    border-color: black;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: -20%
+    }
+
+
+    50% {
+        left: -40%
+    }
+
+    75% {
+        left: -75%
+    }
+
+    95% {
+        left: -90%
+    }
+
+    100% {
+        left: -150%
+    }
 }
