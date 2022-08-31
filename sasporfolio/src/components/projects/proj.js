@@ -7,7 +7,8 @@ const Projects = () => {
     return (
         <>
             <div className="proj">
-                <h1 className="section">Netflix Redesign: Group Work</h1>
+                <h1 className="section">Netflix Redesign</h1>
+                <h5>Group project using React, and MySQL. Includes site, github, and user persona.</h5>
                 <div className="netflix">
                     <div className="row">
                         <div className="card">
@@ -31,7 +32,8 @@ const Projects = () => {
                 </div>
             </div >
             <div className="ecom">
-                <h1> Version 1-3 Ecommerce Project </h1>
+                <h1> Ecommerce Project </h1>
+                <h5> The evolution of my Ecommerce project from first version to third. HTML, CSS, Js, React, MySQL.</h5>
                 <div className="cardec">
                     <div className="slider">
                         <figure>
@@ -55,8 +57,7 @@ const Projects = () => {
                     </div>
                     <div className="cardtaskbox">
                         <h1 className="taskhead"> Task Tracker Project</h1>
-                        <p className="tasktext">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p className="tasktext"> This project was the first time I deployed using AWS Amplify. I still host it today out of sentiment. My favorite part of this project is the background image change from day to night at 7p. Hover over image to see the difference. Click to see site.
                         </p>
                     </div>
                 </div>

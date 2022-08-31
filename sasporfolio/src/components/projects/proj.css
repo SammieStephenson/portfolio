@@ -31,13 +31,14 @@
     /* overflow: hidden; */
     background-color: antiquewhite;
     margin: 20pt;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .cardup {
     width: 23vw;
-    height: 65vh;
+    height: 59vh;
     border-radius: 30px;
-    /* overflow: hidden; */
     background-color: antiquewhite;
     margin: 20pt;
     margin-left: 17%;
@@ -46,9 +47,8 @@
 .cardtaskbox {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30vw;
-    height: 90vh;
+    height: 50vh;
     border-radius: 30px;
-    /* overflow: hidden; */
     background-color: antiquewhite;
     margin: 20pt;
 }
@@ -124,7 +124,7 @@
 }
 
 .cardtaskbox {
-    margin-top: 5%;
+    margin-top: 17%;
 }
 
 
