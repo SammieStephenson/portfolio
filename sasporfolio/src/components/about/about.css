@@ -19,6 +19,8 @@
 .abtext {
     flex: 1;
     margin-right: 60pt;
+    line-height: 2;
+    word-spacing: 1.8;
 }
 
 .a-card.bg {
@@ -28,23 +30,17 @@
 }
 
 .a-card {
-    width: 60%;
-    height: 70vh;
+    width: 80%;
+    height: 80vh;
     border-radius: 30px;
     position: relative;
     overflow: hidden;
 }
 
 .a-img {
-    width: 100%;
+    width: 130%;
     height: 100%;
     object-fit: cover;
-}
-
-.a-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
 }
 
 .a-title {
