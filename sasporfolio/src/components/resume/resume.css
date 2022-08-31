@@ -4,3 +4,7 @@ div.resume {
     top: 50px;
     left: 50px;
 }
+
+.iframe {
+    border: solid 8pt;
+}

@@ -3,9 +3,14 @@ import "./header.css";
 
 function Header() {
     return (
-        <div className="name">
-            {/* <img src="./public/assets/S.jpg" alt="" className="name"> </img> */}
-        </div>
+        <>
+            <div className="name">
+                <div className="left">
+                    <img src="../assets/slogo.jpg" alt="" />
+                    <h1> Sammie A. Stephenson </h1>
+                </div>
+            </div>
+        </>
     )
 }
 
