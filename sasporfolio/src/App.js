@@ -3,6 +3,7 @@ import About from "./components/about/about.js";
 import Header from "./components/header/header";
 import Projects from "./components/projects/proj";
 import Res from './components/resume/resume';
+import Footer from "./components/footer/footer";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Res />
         <Projects />
+        <Footer />
       </div>
     </div>
   );

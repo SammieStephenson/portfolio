@@ -8,11 +8,11 @@
 
 .left {
     margin: 7pt;
-    height: 15vh;
-    width: 30vw;
+    height: 17vh;
+    width: 53vw;
     display: flex;
     justify-content: space-around;
-    font-family: cursive;
+    font-size: 20pt;
 }
 
 div.right {
